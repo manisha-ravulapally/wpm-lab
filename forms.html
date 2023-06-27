@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Forms</title>
+     <style> 
+     #button{ 
+         font-size:20px; 
+         background-color:aqua;
+    } 
+    body{
+        background-color:antiquewhite;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-LEFT: 50PX ;
+    }
+</style> 
+</head>
+<body>
+    <h1 style="color:blueviolet; text-align:center">STUDENT FORM</h1>
+    <form>
+         <div> 
+        <label for="name"><h3>NAME:</h3></label>
+        <input type="text" id="name" name="name">
+        </div> 
+     <br> 
+         <div> 
+        <label for="fathername"><h3>FATHER NAME:</h3></label>
+        <input type="text" id="fathername" name="fname">
+        </div> 
+        <br> 
+        <div>
+        <label for ="email"><h3>EMAIL:</h3></label>
+        <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <div>
+        <label for="phone"><h3>PHONENO.:</h3></label>
+        <input type="text" id="phone" name="phone">
+        </div>
+        <br>
+        <div>
+        <label for="dob"><h3>DATE OF BIRTH:</h3></label> 
+        <input type="date" id="dob" name="dob">
+        </div>
+        <div>
+            <h3>ADDRESS:</h3>
+            <textarea rows="5" cols="50"></textarea>
+        </div>
+        <div>
+            <h3>GENDER:</h3>
+            <label for="male">male</label> 
+            <input type="radio" id="gender" name="gender">
+            <label for="female">female</label> 
+            <input type="radio" id="female" name="gender">
+            <label for="others">others</label> 
+            <input type="radio" id="others" name="gender">
+        </div>
+        <div>
+            <h3>SELECT THE INTRESTED COURSES: </h3>
+            <label for ="CSE">CSE</label>
+            <input type ="checkbox" id="CSE" NAME="COURSE">
+            <br>
+            <label for ="AI"> AI</label>
+            <input type ="checkbox" id="AI" NAME="COURSE">
+            <br>
+            <label for ="AIML"> AIML</label>
+            <input type ="checkbox" id="AIML" NAME="COURSE">
+            <br>
+            <label for ="ECE"> ECE</label>
+            <input type ="checkbox" id="ECE" NAME="COURSE">
+            <br>
+        </div>
+        <br>
+         <a href ="submit_file.html"><input type ="submit" id="button" value =SUBMIT></a> 
+      
+        <input type ="reset" id ="button"value =RESET>
+    </form>
+    
+</body>
+</html>
