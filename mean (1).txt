@@ -1,0 +1,34 @@
+// INSTALL NODE
+1.node --version ----->displays version(v18.16.1)
+2.npm  --version ------->displays version(9.5.1)
+=======================
+// INSTALL EXPRESS
+>npm install  -g express-generator
+==========
+//if security error occurs
+    1.Set -Executionpolicy -Scope Currentuser
+2.ExecutionPolicy:Bypass
+===========
+>express
+==========
+//INSTALL DEPENDENCIES:
+>npm install
+============ 
+//till u get 0 vulnerabilities ,run
+ > npm audit fix --force
+============
+//to run the app
+ >SET DEBUG=restaurant-finder:* ; npm start
+==============
+// nodemon installation
+>npm install -g nodemon
+=============
+//to moniter our node 
+>nodemon
+======
+// TO REPALCE JADE ENGINE WITH PUG 
+>express --view=pug --git
+===========
+//REPEAT THE PROCESS FOR GETTING 0 VULNERABILITIES.
+============
+//DELETE THE JADE FILES TO AVOID CONFUSION.
